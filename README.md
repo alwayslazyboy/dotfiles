@@ -6,3 +6,7 @@ Here is my basic settings files. Enjoy yourself!
 
 Just execute the setup.sh file and that creates 
 symbolic files to each file for easily management.
+
+### Install Vim Plugins
+
+Open vim and `:PlugInstall` to install plugins.
