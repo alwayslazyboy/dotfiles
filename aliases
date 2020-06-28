@@ -31,6 +31,12 @@ alias la='ll -A'           #  Show hidden files.
 alias tree='tree -Csuh'    #  Nice alternative to 'recursive ls' ...
 
 #-------------------------------------------------------------
-# Thunderbird 
+# Browsers 
 #-------------------------------------------------------------
 alias thunderbird='(thunderbird -ProfileManager >/dev/null 2>&1 &)'
+alias firefox='(firefox >/dev/null 2>&1 &)'
+
+#-------------------------------------------------------------
+# User
+#-------------------------------------------------------------
+alias logout='pkill -u $(whoami)'
