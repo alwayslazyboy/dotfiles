@@ -4,6 +4,10 @@ DIR="$( cd "$(dirname "$0")" ; pwd -P )"
 
 ln -s $DIR/bashrc $HOME/.bashrc
 ln -s $DIR/zshrc $HOME/.zshrc
+
+ln -s $DIR/npmrc $HOME/.npmrc
+mkdir -vp $HOME/.npm-global
+
 ln -s $DIR/profile $HOME/.profile
 ln -s $DIR/aliases $HOME/.aliases
 ln -s $DIR/Xresources $HOME/.Xresources
