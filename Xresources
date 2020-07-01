@@ -8,8 +8,8 @@ Xft.hintstyle: hintfull
 Xft.lcdfilter: lcddefault
 
 !! URxvt Appearance
-URxvt.font: xft:Hasklig:size=10
-URxvt.boldFont: xft:Hasklig:bold:size=10
+URxvt.font: xft:Roboto Mono:size=12
+URxvt.boldFont: xft:Roboto Mono:bold:size=12
 URxvt.letterSpace: 0
 URxvt.lineSpace: 0
 URxvt.geometry: 100x30
