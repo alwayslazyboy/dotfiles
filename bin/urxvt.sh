@@ -7,7 +7,7 @@
 sudo apt update
 
 # Install 
-sudo apt install -y rxvt-unicode xclip
+sudo apt install -y rxvt-unicode xclip xsel
 
 # Set as default terminal
 sudo update-alternatives --set x-terminal-emulator /usr/bin/urxvt
