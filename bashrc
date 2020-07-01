@@ -1,8 +1,6 @@
 [ -z "$PS1" ] && return
 
-if [ -f /etc/bashrc ]; then
-      . /etc/bashrc   # --> Read /etc/bashrc, if present.
-fi
+[[ -f /etc/bashrc ]] && source /etc/bashrc   # --> Read /etc/bashrc, if present.
 
 #-------------------------------------------------------------
 # Settings mode
@@ -111,6 +109,5 @@ export LESS_TERMCAP_us=$'\E[01;32m'
 # Aliases
 #-------------------------------------------------------------
 
-if [ -f $HOME/.aliases ]; then
-      . $HOME/.aliases # load aliases
-fi
+[[ -f $HOME/.aliases ]] && source $HOME/.aliases 
+[[ -f $HOME/.private-aliases ]] && source $HOME/.private-aliases 

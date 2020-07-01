@@ -1,3 +1,12 @@
+# set path so it includes user's private bin if it exists
+[[ -d $HOME/bin ]] && export PATH="$HOME/bin:$PATH"
+# set path so it includes user's private bin if it exists
+[[ -d $HOME/.local/bin ]] && export PATH="$HOME/.local/bin:$PATH"
+# set path so it includes rvm bin if it exists
+[[ -d $HOME/.rvm/bin ]] && export PATH="$HOME/.rvm/bin:$PATH"
+# run rvm
+[[ -s $HOME/.rvm/scripts/rvm ]] && source ~/.rvm/scripts/rvm
+
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
@@ -100,7 +109,6 @@ export LESS_TERMCAP_so=$'\E[01;44;33m'
 export LESS_TERMCAP_ue=$'\E[0m'
 export LESS_TERMCAP_us=$'\E[01;32m'
 
-
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
@@ -118,8 +126,7 @@ export EDITOR='vim'
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-#
 
-if [ -f $HOME/.aliases ]; then
-      . $HOME/.aliases # load aliases
-fi
+# Load aliases
+[[ -f $HOME/.aliases ]] && source $HOME/.aliases
+[[ -f $HOME/.private-aliases ]] && source $HOME/.private-aliases
