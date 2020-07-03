@@ -24,6 +24,7 @@ alias df='df -kTh'
 #-------------------------------------------------------------
 # Listing Files
 #-------------------------------------------------------------
+
 alias ls='ls -h --color'
 alias lx='ls -lXB'         #  Sort by extension.
 alias lk='ls -lSr'         #  Sort by size, biggest last.
@@ -39,16 +40,26 @@ alias tree='tree -Csuh'    #  Nice alternative to 'recursive ls' ...
 #-------------------------------------------------------------
 # Browsers 
 #-------------------------------------------------------------
+
 alias thunderbird='(thunderbird -ProfileManager >/dev/null 2>&1 &)'
-alias firefox='(firefox >/dev/null 2>&1 &)'
+alias ff='(firefox >/dev/null 2>&1 &)'
 
 #-------------------------------------------------------------
 # User
 #-------------------------------------------------------------
+
 alias logout='pkill -u $(whoami)'
 
 #-------------------------------------------------------------
 # Jekyll Development
 #-------------------------------------------------------------
+
 alias jkls='bundle exec jekyll server'
 alias jklb='bundle exec jekyll build'
+
+#-------------------------------------------------------------
+# Youtube Downloads
+#-------------------------------------------------------------
+
+alias ytbpl="youtube-dl -i -f mp4 --yes-playlist"
+alias ytbmp3="youtube-dl --extract-audio --audio-format mp3"

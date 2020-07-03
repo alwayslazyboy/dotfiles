@@ -1,0 +1,15 @@
+#! /bin/bash
+
+SRC=$(cd "$(dirname "$0")" ; pwd -P)
+DEST=$HOME
+
+mkdir -vp $DEST/.npm-global
+
+ln -vsb $SRC/vim $DEST/.vim
+ln -vsb $SRC/zshrc $DEST/.zshrc
+ln -vsb $SRC/npmrc $DEST/.npmrc
+ln -vsb $SRC/bashrc $DEST/.bashrc
+ln -vsb $SRC/profile $DEST/.profile
+ln -vsb $SRC/aliases $DEST/.aliases
+ln -vsb $SRC/gitconfig $DEST/.gitconfig
+ln -vsb $SRC/Xresources $DEST/.Xresources

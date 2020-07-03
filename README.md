@@ -1,12 +1,3 @@
-# My personal .dotfiles
+# Personal dots
 
-Here is my basic settings files. Enjoy yourself!
-
-## Setup
-
-Just execute the setup.sh file and that creates 
-symbolic files for easily management.
-
-### Install Vim Plugins
-
-Open vim and `:PlugInstall` to install plugins.
+Configuration files for zsh, bash, vim, git, etc.
