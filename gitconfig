@@ -1,7 +1,7 @@
 [user]
-	name = Leonardo Barros
-	email = leonardo@leonardobarros.dev
-    username = alwayslazyboy
+	name = your name
+	email = your email
+    username = your username
 
 [core]
     editor = vim

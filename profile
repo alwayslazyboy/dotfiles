@@ -15,7 +15,7 @@ fi
 # set path so it includes snap's apps if it exists
 [[ -d /snap/bin ]] && export PATH="/snap/bin:$PATH"
 
-# set path so it includes snap's apps if it exists
+# set path so it includes composer's bin if it exists
 [[ -d $HOME/.config/composer/vendor/bin ]] && export PATH="$HOME/.config/composer/vendor/bin:$PATH"
 
 # set path so it includes rvm bin if it exists
