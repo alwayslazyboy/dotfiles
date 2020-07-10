@@ -1,6 +1,6 @@
 #! /bin/bash
 
-SRC=$(cd "$(dirname "$0")" ; pwd -P)
+SRC="$( dirname $( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd ) )"
 DEST=$HOME
 
 mkdir -vp $DEST/.npm-global

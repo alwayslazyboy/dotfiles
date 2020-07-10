@@ -1,3 +1,9 @@
+date
+
+if [ -x "$(command -v fortune)" ]; then 
+    fortune | `ls /usr/games/cow* | shuf -n 1` -f `ls /usr/share/cowsay/cows/ | shuf -n 1`
+fi
+
 # set path so it includes user's private bin if it exists
 [[ -d $HOME/bin ]] && export PATH="$HOME/bin:$PATH"
 
@@ -9,6 +15,9 @@
 
 # set path so it includes composer's bin if it exists
 [[ -d $HOME/.config/composer/vendor/bin ]] && export PATH="$HOME/.config/composer/vendor/bin:$PATH"
+
+# set path so it includes rackets's bin if it exists
+[[ -d /usr/local/racket/bin ]] && export PATH="/usr/local/racket/bin:$PATH"
 
 # set path so it includes rvm bin if it exists
 [[ -d $HOME/.rvm/bin ]] && export PATH="$HOME/.rvm/bin:$PATH"
