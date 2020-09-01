@@ -10,6 +10,7 @@ ln -vsb $SRC/zshrc $DEST/.zshrc
 ln -vsb $SRC/npmrc $DEST/.npmrc
 ln -vsb $SRC/bashrc $DEST/.bashrc
 ln -vsb $SRC/profile $DEST/.profile
+ln -vsb $SRC/zprofile $DEST/.zprofile
 ln -vsb $SRC/aliases $DEST/.aliases
 ln -vsb $SRC/gitconfig $DEST/.gitconfig
 ln -vsb $SRC/Xresources $DEST/.Xresources
