@@ -110,4 +110,4 @@ export LESS_TERMCAP_us=$'\E[01;32m'
 #-------------------------------------------------------------
 
 [[ -f $HOME/.aliases ]] && source $HOME/.aliases 
-[[ -f $HOME/.private-aliases ]] && source $HOME/.private-aliases 
+[[ -f $HOME/.aliases.pc]] && source $HOME/.aliases.pc
