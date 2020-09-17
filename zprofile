@@ -7,3 +7,5 @@
 [[ -d $HOME/.cargo/bin ]] && export PATH="$HOME/.cargo/bin:$PATH"
 [[ -d $HOME/.config/composer/vendor/bin ]] && export PATH="$HOME/.config/composer/vendor/bin:$PATH"
 [[ -s $HOME/.rvm/scripts/rvm ]] && source $HOME/.rvm/scripts/rvm
+[[ -d /opt/firefox ]] && export PATH="/opt/firefox/firefox:$PATH"
+[[ -d $HOME/.local/go ]] && export PATH="$HOME/.local/go/bin:$PATH"
