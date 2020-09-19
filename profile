@@ -8,7 +8,6 @@ fi
 
 [[ -d $HOME/bin ]] && export PATH="$HOME/bin:$PATH"
 [[ -d $HOME/.local/bin ]] && export PATH="$HOME/.local/bin:$PATH"
-[[ -d $HOME/.npm-global/bin ]] && export PATH="$HOME/.npm-global/bin:$PATH"
 [[ -d /snap/bin ]] && export PATH="/snap/bin:$PATH"
 [[ -d /usr/local/racket/bin ]] && export PATH="/usr/local/racket/bin:$PATH"
 [[ -d $HOME/.rvm/bin ]] && export PATH="$HOME/.rvm/bin:$PATH"

@@ -2,7 +2,6 @@
 [[ -d $HOME/.local/racket/bin ]] && export PATH="$HOME/.local/racket/bin:$PATH"
 [[ -d $HOME/.local/go ]] && export PATH="$HOME/.local/go/bin:$PATH"
 [[ -d $HOME/.cargo/bin ]] && export PATH="$HOME/.cargo/bin:$PATH"
-[[ -d $HOME/.npm-global/bin ]] && export PATH="$HOME/.npm-global/bin:$PATH"
 [[ -d $HOME/.rvm/bin ]] && export PATH="$HOME/.rvm/bin:$PATH"
 [[ -d $HOME/.config/composer/vendor/bin ]] && export PATH="$HOME/.config/composer/vendor/bin:$PATH"
 [[ -s $HOME/.rvm/scripts/rvm ]] && source $HOME/.rvm/scripts/rvm
