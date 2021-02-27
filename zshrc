@@ -1,6 +1,6 @@
 date
 
-if [ -x "$(command -v fortune)" ]; then 
+if [ -x "$(command -v fortune)" ]; then
     fortune | `ls /usr/games/cow* | shuf -n 1` -f `ls /usr/share/cowsay/cows/ | shuf -n 1`
 fi
 
@@ -56,4 +56,3 @@ export EDITOR='vim'
 
 # Load aliases
 [[ -f $HOME/.aliases ]] && source $HOME/.aliases
-[[ -f $HOME/.aliases.pc ]] && source $HOME/.aliases.pc
