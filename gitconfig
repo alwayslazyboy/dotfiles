@@ -1,7 +1,7 @@
 [user]
     # change this
-	name = Leonardo Barros
-	email = leonardo@leonardobarros.dev
+    name = Leonardo Barros
+    email = leonardo@leonardobarros.dev
     username = alwayslazyboy
 
 [core]
@@ -13,7 +13,7 @@
 
 [difftool]
     prompt = false
-    
+
 [alias]
     a = add --all
     c = commit
