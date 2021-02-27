@@ -3,8 +3,6 @@
 SRC="$( dirname $( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd ) )"
 DEST=$HOME
 
-mkdir -vp $DEST/.npm-global
-
 ln -vsb $SRC/vim $DEST/.vim
 ln -vsb $SRC/zshrc $DEST/.zshrc
 ln -vsb $SRC/npmrc $DEST/.npmrc
