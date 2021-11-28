@@ -110,3 +110,6 @@ export LESS_TERMCAP_us=$'\E[01;32m'
 #-------------------------------------------------------------
 
 [[ -f $HOME/.aliases ]] && source $HOME/.aliases 
+
+# Run rbenv
+eval "$(rbenv init - zsh)"

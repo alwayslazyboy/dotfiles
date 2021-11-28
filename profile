@@ -15,3 +15,4 @@ fi
 [[ -s $HOME/.rvm/scripts/rvm ]] && source $HOME/.rvm/scripts/rvm
 [[ -d /snap/bin ]] && export PATH="/snap/bin:$PATH"
 [[ -d /opt/firefox ]] && export PATH="/opt/firefox/firefox:$PATH"
+[[ -d $HOME/.rbenv/bin ]] && export PATH="$HOME/.rbenv/bin:$PATH"

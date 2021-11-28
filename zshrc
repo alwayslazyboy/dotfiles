@@ -17,7 +17,7 @@ ZSH_THEME="robbyrussell"
 HIST_STAMPS="mm/dd/yyyy"
 
 # Which plugins would you like to load?
-plugins=(git)
+plugins=(git history emoji zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -56,3 +56,7 @@ export EDITOR='vim'
 
 # Load aliases
 [[ -f $HOME/.aliases ]] && source $HOME/.aliases
+
+# Run rbenv
+eval "$(rbenv init - zsh)"
+
