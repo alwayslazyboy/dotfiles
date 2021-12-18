@@ -58,5 +58,4 @@ export EDITOR='vim'
 [[ -f $HOME/.aliases ]] && source $HOME/.aliases
 
 # Run rbenv
-eval "$(rbenv init - zsh)"
-
+[ -x "$(command -v rbenv)" ] && eval "$(rbenv init - zsh)"
