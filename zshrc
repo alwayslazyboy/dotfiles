@@ -59,3 +59,8 @@ export EDITOR='vim'
 
 # Run rbenv
 [ -x "$(command -v rbenv)" ] && eval "$(rbenv init - zsh)"
+
+# BEGIN SNIPPET: Platform.sh CLI configuration
+HOME=${HOME:-'/home/alwayslazyboy'}
+export PATH="$HOME/"'.platformsh/bin':"$PATH"
+if [ -f "$HOME/"'.platformsh/shell-config.rc' ]; then . "$HOME/"'.platformsh/shell-config.rc'; fi # END SNIPPET
