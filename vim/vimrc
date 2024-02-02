@@ -8,6 +8,7 @@ Plug 'tpope/vim-surround'
 Plug 'airblade/vim-gitgutter'
 Plug 'joshdick/onedark.vim'
 Plug 'vim-airline/vim-airline'
+Plug 'djoshea/vim-autoread'
 
 " Initialize plugin system
 call plug#end()
